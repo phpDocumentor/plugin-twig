@@ -162,7 +162,7 @@ Example globally defined extension::
       <transformations>
           <transformation
               writer="\phpDocumentor\Plugin\Twig\Transformer\Writer\Twig"
-              source="templates/sami/index.twig"
+              source="templates/twig/index.twig"
               artifact="index.html"/>
       </transformations>
   </template>
@@ -174,7 +174,7 @@ Example extension defined with an individual transformation::
       <transformations>
           <transformation
               writer="\phpDocumentor\Plugin\Twig\Transformer\Writer\Twig"
-              source="templates/sami/index.twig"
+              source="templates/twig/index.twig"
               artifact="index.html"
           >
               <parameters>
