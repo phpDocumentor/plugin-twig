@@ -1,0 +1,25 @@
+{
+    "hash": "7846df0ee06d31720c15d7b78b742832",
+    "packages": [
+        {
+            "package": "twig/twig",
+            "version": "dev-master",
+            "alias-pretty-version": "1.9.x-dev",
+            "alias-version": "1.9.9999999.9999999-dev"
+        },
+        {
+            "package": "twig/twig",
+            "version": "dev-master",
+            "source-reference": "26eb0a2653eade50dffdd31b11ca454232dea8cf",
+            "commit-date": "1341423205"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ]
+}
