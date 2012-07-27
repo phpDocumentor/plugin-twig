@@ -214,7 +214,12 @@ class Twig extends \phpDocumentor\Transformer\Writer\WriterAbstract
 
             // to support 'normal' Twig extensions we check the interface
             // to determine what instantiation to do.
-            $extension_object = (class_implements('ExtensionInterface'))
+            $implements_interface = in_array(
+                'phpDocumentor\Plugin\Twig\ExtensionInterface',
+                class_implements($extension)
+            );
+
+            $extension_object = $implements_interface
                 ? new $extension($structure, $transformation)
                 : new $extension();
 
