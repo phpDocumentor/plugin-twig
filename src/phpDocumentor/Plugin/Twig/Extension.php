@@ -126,6 +126,7 @@ class Extension extends \Twig_Extension implements ExtensionInterface
     public function getGlobals()
     {
         return array(
+            'ast'      => current($this->data->xpath('/')),
             'ast_node' => $this->data
         );
     }
