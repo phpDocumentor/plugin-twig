@@ -1,12 +1,11 @@
 phpDocumentor Twig Plugin
 =========================
 
-.. important:: this document is still a work in progress
+.. important:: 
 
-.. important::
-
-   This plugin is still experimental. No templates have been created yet with it
-   thus it is possible it needs some tweaks for optimal usability.
+   This plugin is deprecated and will be removed once phpDocumentor 2.0 goes stable. Twig 
+   functionality will be included in the core of phpDocumentor 2.0 using an Object model instead
+   of XML/XPath interaction.
 
 Installation
 ------------
